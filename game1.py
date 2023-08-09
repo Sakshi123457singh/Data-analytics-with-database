@@ -53,7 +53,7 @@ def draw():
     player.draw()
     coin.draw()
     alien.draw()
-    def update(dt):
-        print(dt)
-        player_movement()
-    pgzrun.go()
+def update(dt):
+    print(dt)
+    player_movement()
+pgzrun.go()
